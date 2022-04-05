@@ -1,0 +1,70 @@
+\documentclass[journal,11pt, twocolumn]{IEEEtran}
+
+\usepackage{tfrupee}
+\usepackage{enumitem}
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+\title{Assignment1}
+\author{Velma Dhatri Reddy \\ \normalsize AI21BTECH11030 \\ \vspace*{10pt} \Large ICSE 2019 Grade 10}
+\begin{document}
+\maketitle
+\textbf{Question 8(a)}
+The sum of the first three terms of an Arithmetic Progression (A.P.) is 42 and the product of the first and third term is 52. Find the first term and the common difference.
+
+\textbf{Solution:}
+
+Let the first three terms of the arithmetic expression be $a_1, a_2, a_3$.
+So, $a_1 + a_3 = 2\times a_2$.
+
+Given, sum of the first three terms($S$) is 42.
+\begin{align}
+    \implies
+    &a_1 + a_2 + a_3 = 42\\
+    \implies
+    &2 \times a_2 + a_2 = 42\\
+    \implies
+    & 3\times a_2 = 42\\
+    \implies
+    &a_2 = 14
+\end{align}
+Let the common difference of the Arithmetic Progression be $d$.
+So, $a_2 - a_1 = d$ and $a_3 - a_2 = d$.
+Hence, we can write $ a_1 = a_2 - d$ and $ a_3 = a_2 + d$.
+Given, product of the first and third term($P$) is 52.
+\begin{align}
+    \implies
+    &a_1 \times a_3 = 52\\
+    \implies 
+    &(a_2 - d) \times (a_2 + d) = 52\\
+    \implies
+    &a_2^2 - d^2 = 52\\
+    \implies
+    &d^2 = a_2^2 - 52\\
+    &= 14^2 - 52\\
+    &= 144\\
+    \implies
+    &d = \pm \sqrt{144}\\
+    &= \pm 12
+\end{align}
+
+Case 1:
+\begin{enumerate}[label=(\roman*)]
+		\item Common difference ($d$) = 12
+		\item First term ($a_1$) = $a_2 - d$ = $14 - 12$ = 2
+\end{enumerate}
+
+Case 2:
+\begin{enumerate}[label=(\roman*)]
+		\item Common difference ($d$) = $-12$
+		\item First term ($a_1$) = $a_2 - d$ = $14 + 12$ = 26
+\end{enumerate}
+
+\begin{table}[ht!]
+		\input{tables/table-1.tex}
+		\vspace*{5pt}
+		\caption{}
+		\label{table:table1}	
+\end{table}
+
+\end{document}
