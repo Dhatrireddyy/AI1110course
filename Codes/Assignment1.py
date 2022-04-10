@@ -24,8 +24,7 @@ def main():
     print(f"The common difference is {CommonDifference2(S,P)} ")
     print(f"The first term of the arithmetic progression is {FirstTerm2(S,P)}")
 
-
-
+    
 def CommonDifference1(Sum,Product) -> int:
         """ Returns the common difference """
         return math.sqrt((Sum/3)**2 - Product)
